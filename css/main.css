@@ -14,7 +14,7 @@ body::after{
     left:0;
     right:0;
     background-color: black;
-    opacity: 0.8;
+    opacity: 0.93;
     background-image: url(/img/background/fsa_logo.png);
     background-size: 50%;
     background-repeat: no-repeat;
