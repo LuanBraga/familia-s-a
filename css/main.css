@@ -3,6 +3,7 @@ body::after {
 }
 
 .navbar {
+    background: rgb(255,40,113);
     background: linear-gradient(90deg, rgba(255,40,113,1) 0%, rgba(245,255,0,1) 100%);
 }
 
