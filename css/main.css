@@ -30,7 +30,6 @@ body::after{
 
 @media only screen and ( min-width: 800px ){
     body::after{
-        opacity: 0.93;
         background-size: 50%;
     }
 }
