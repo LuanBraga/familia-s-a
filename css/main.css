@@ -1,5 +1,5 @@
 body{
-    background-image: url(/img/background/pexels-elle-hughes-1549196.jpg);
+    background-image: url(../img/background/pexels-elle-hughes-1549196.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-width: 100vw;
@@ -15,7 +15,7 @@ body::after{
     right:0;
     background-color: black;
     opacity: 0.93;
-    background-image: url(/img/background/fsa_logo.png);
+    background-image: url(../img/background/fsa_logo.png);
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
