@@ -1,34 +1,35 @@
-body{
-    background-image: url(../img/background/pexels-elle-hughes-1549196.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-width: 100vw;
-    min-height: 100vh;
-}
 
-body::after{
-    content: '';
-    position:absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background-color: black;
-    opacity: 0.93;
-    background-image: url(../img/background/fsa_logo.png);
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-@media only screen and ( max-width: 800px){
+@media only screen and ( min-width: 200px){
+    body{
+        background-image: url(../img/background/pexels-elle-hughes-1549196.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-width: 100vw;
+        min-height: 100vh;
+    }
     
-
+    body::after{
+        content: '';
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        background-color: black;
+        opacity: 0.93;
+        background-image: url(../img/background/fsa_logo.png);
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 }
 
-@media only screen and ( min-width: 801px ){
-     
-
+@media only screen and ( min-width: 800px ){
+    body::after{
+        opacity: 0.93;
+        background-size: 50%;
+    }
 }
 
 @media only screen and ( min-width: 991px ){
